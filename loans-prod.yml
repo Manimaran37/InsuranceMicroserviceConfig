@@ -1,0 +1,7 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+user:
+  message: "Loans Microservice in prod environment"

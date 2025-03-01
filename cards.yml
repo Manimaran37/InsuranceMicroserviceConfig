@@ -1,0 +1,30 @@
+#server:
+#  port: 9000
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/cards_db
+#    username: root
+#    password: pass
+##  datasource:
+##    url: jdbc:h2:mem:testdb
+##    driverClassName: org.h2.Driver
+##    username: sa
+##    password: ''
+##  h2:
+##    console:
+##      enabled: true
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#  config:
+#    import:
+#      - "cards-qa.yml"
+#      - "cards-prod.yml"
+#  profiles:
+#    active:
+#      - "qa"
+
+user:
+  message: "Cards Microservice in dev environment"

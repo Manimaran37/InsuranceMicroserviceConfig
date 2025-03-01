@@ -1,0 +1,7 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "prod"
+
+user:
+  message: "Accounts Microservice in prod environment"

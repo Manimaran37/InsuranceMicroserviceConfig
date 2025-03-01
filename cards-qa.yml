@@ -1,0 +1,7 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "qa"
+
+user:
+  message: "Cards Microservice in QA environment"

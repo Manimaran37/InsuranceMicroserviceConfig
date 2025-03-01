@@ -1,0 +1,7 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "qa"
+
+user:
+  message: "Accounts Microservice in QA environment"

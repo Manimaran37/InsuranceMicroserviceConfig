@@ -1,0 +1,30 @@
+#server:
+#  port: 8090
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/loans_db
+#    username: root
+#    password: pass
+##  datasource:
+##    url: jdbc:h2:mem:testdb
+##    driverClassName: org.h2.Driver
+##    username: sa
+##    password: ''
+##  h2:
+##    console:
+##      enabled: true
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#  config:
+#    import:
+#      - "loans-qa.yml"
+#      - "loans-prod.yml"
+#  profiles:
+#    active:
+#      - "prod"
+
+user:
+  message: "Loans Microservice in dev environment"
