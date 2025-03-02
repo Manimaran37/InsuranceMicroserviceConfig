@@ -4,4 +4,4 @@
 #      on-profile: "prod"
 
 user:
-  message: "Accounts Microservice in prod environment"
+  message: "Accounts Microservice in production environment"
